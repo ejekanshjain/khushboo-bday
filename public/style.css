@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #020202;
+    cursor: crosshair;
+    overflow: hidden;
+}
+
+canvas{
+    display:block
+}
+
+h2 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 3em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+footer {
+    position: absolute;
+    margin: 0 auto;
+    padding: 1rem;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: #aaa;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ccc;
+}
